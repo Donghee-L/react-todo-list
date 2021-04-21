@@ -1,0 +1,55 @@
+.app {
+  padding:20px;
+}
+
+.nav {
+  position:sticky;  
+  background-color: #413c3c;
+  height: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.nav > img {
+  height: 70px;
+}
+
+.flex { 
+  display:flex;
+}
+
+.font-white {
+  color:white;
+}
+
+.todo-list-title {
+  margin: 20px 0;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  padding:5px 20px;
+  font-size: 2rem;  
+}
+
+.todo-list-title > h2 { 
+  text-decoration: underline;
+}
+
+
+
+.app button {
+  height: 50px; width: 10%;
+  padding:15px;
+  border-radius: 10px;
+  border:none; outline: none;
+  margin: 0 5px;
+  cursor:pointer;
+}
+
+.todoInput {
+  height: 50px; width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  margin: 0 5px;
+}
+
